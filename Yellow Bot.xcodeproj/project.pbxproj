@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F9998F928F52AE6000A6542 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9998F828F52AE6000A6542 /* FirebaseMessaging */; };
+		7FC7E47428E3F5A3001194F0 /* YMChat in Frameworks */ = {isa = PBXBuildFile; productRef = 7FC7E47328E3F5A3001194F0 /* YMChat */; };
+		918C609D26A5A1B200C70F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C609C26A5A1B200C70F27 /* AppDelegate.swift */; };
+		918C609F26A5A1B200C70F27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C609E26A5A1B200C70F27 /* SceneDelegate.swift */; };
+		918C60A126A5A1B200C70F27 /* QuickStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C60A026A5A1B200C70F27 /* QuickStartViewController.swift */; };
+		918C60A426A5A1B200C70F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918C60A226A5A1B200C70F27 /* Main.storyboard */; };
+		918C60A626A5A1B500C70F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918C60A526A5A1B500C70F27 /* Assets.xcassets */; };
+		918C60A926A5A1B500C70F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918C60A726A5A1B500C70F27 /* LaunchScreen.storyboard */; };
+		918C60B126A6C08B00C70F27 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C60B026A6C08B00C70F27 /* ProfileViewController.swift */; };
+		918C60B326A6C29B00C70F27 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C60B226A6C29B00C70F27 /* Defaults.swift */; };
+		918C60B526A6C59A00C70F27 /* BotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C60B426A6C59A00C70F27 /* BotModel.swift */; };
+		918C60B726A6D66E00C70F27 /* PayloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C60B626A6D66E00C70F27 /* PayloadViewController.swift */; };
+		918C60B926A6D88400C70F27 /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C60B826A6D88400C70F27 /* Other.swift */; };
+		918C60BB26A7072800C70F27 /* URLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C60BA26A7072800C70F27 /* URLViewController.swift */; };
+		918C60F726A7FD0C00C70F27 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C60F626A7FD0C00C70F27 /* InfoViewController.swift */; };
+		91EB0E8A26AE8B030034C356 /* ProfileListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB0E8926AE8B030034C356 /* ProfileListTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F30876528CF3A12005ECB6A /* Yellow Bot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Yellow Bot.entitlements"; sourceTree = "<group>"; };
+		918C609926A5A1B200C70F27 /* Yellow Bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yellow Bot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		918C609C26A5A1B200C70F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		918C609E26A5A1B200C70F27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		918C60A026A5A1B200C70F27 /* QuickStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartViewController.swift; sourceTree = "<group>"; };
+		918C60A326A5A1B200C70F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		918C60A526A5A1B500C70F27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		918C60A826A5A1B500C70F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		918C60AA26A5A1B500C70F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		918C60B026A6C08B00C70F27 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		918C60B226A6C29B00C70F27 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		918C60B426A6C59A00C70F27 /* BotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotModel.swift; sourceTree = "<group>"; };
+		918C60B626A6D66E00C70F27 /* PayloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayloadViewController.swift; sourceTree = "<group>"; };
+		918C60B826A6D88400C70F27 /* Other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
+		918C60BA26A7072800C70F27 /* URLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLViewController.swift; sourceTree = "<group>"; };
+		918C60F626A7FD0C00C70F27 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		91EB0E8926AE8B030034C356 /* ProfileListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileListTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		918C609626A5A1B200C70F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9998F928F52AE6000A6542 /* FirebaseMessaging in Frameworks */,
+				7FC7E47428E3F5A3001194F0 /* YMChat in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		918C609026A5A1B200C70F27 = {
+			isa = PBXGroup;
+			children = (
+				918C609B26A5A1B200C70F27 /* Yellow Bot */,
+				918C609A26A5A1B200C70F27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		918C609A26A5A1B200C70F27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				918C609926A5A1B200C70F27 /* Yellow Bot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		918C609B26A5A1B200C70F27 /* Yellow Bot */ = {
+			isa = PBXGroup;
+			children = (
+				7F30876528CF3A12005ECB6A /* Yellow Bot.entitlements */,
+				918C60A226A5A1B200C70F27 /* Main.storyboard */,
+				918C609C26A5A1B200C70F27 /* AppDelegate.swift */,
+				918C609E26A5A1B200C70F27 /* SceneDelegate.swift */,
+				918C60A026A5A1B200C70F27 /* QuickStartViewController.swift */,
+				91EB0E8926AE8B030034C356 /* ProfileListTableViewController.swift */,
+				918C60B026A6C08B00C70F27 /* ProfileViewController.swift */,
+				918C60B626A6D66E00C70F27 /* PayloadViewController.swift */,
+				918C60BA26A7072800C70F27 /* URLViewController.swift */,
+				918C60F626A7FD0C00C70F27 /* InfoViewController.swift */,
+				918C60B226A6C29B00C70F27 /* Defaults.swift */,
+				918C60B426A6C59A00C70F27 /* BotModel.swift */,
+				918C60B826A6D88400C70F27 /* Other.swift */,
+				918C60A526A5A1B500C70F27 /* Assets.xcassets */,
+				918C60A726A5A1B500C70F27 /* LaunchScreen.storyboard */,
+				918C60AA26A5A1B500C70F27 /* Info.plist */,
+			);
+			path = "Yellow Bot";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		918C609826A5A1B200C70F27 /* Yellow Bot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918C60AD26A5A1B500C70F27 /* Build configuration list for PBXNativeTarget "Yellow Bot" */;
+			buildPhases = (
+				918C609526A5A1B200C70F27 /* Sources */,
+				918C609626A5A1B200C70F27 /* Frameworks */,
+				918C609726A5A1B200C70F27 /* Resources */,
+				9E6CDD6187011A255643198B /* Copy Firebase config */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yellow Bot";
+			packageProductDependencies = (
+				7FC7E47328E3F5A3001194F0 /* YMChat */,
+				7F9998F828F52AE6000A6542 /* FirebaseMessaging */,
+			);
+			productName = "Yellow Bot";
+			productReference = 918C609926A5A1B200C70F27 /* Yellow Bot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		918C609126A5A1B200C70F27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					918C609826A5A1B200C70F27 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 918C609426A5A1B200C70F27 /* Build configuration list for PBXProject "Yellow Bot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 918C609026A5A1B200C70F27;
+			packageReferences = (
+				7FC7E47228E3F5A3001194F0 /* XCRemoteSwiftPackageReference "YMChatbot-iOS" */,
+				7F9998F728F52AE6000A6542 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 918C609A26A5A1B200C70F27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				918C609826A5A1B200C70F27 /* Yellow Bot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		918C609726A5A1B200C70F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918C60A926A5A1B500C70F27 /* LaunchScreen.storyboard in Resources */,
+				918C60A626A5A1B500C70F27 /* Assets.xcassets in Resources */,
+				918C60A426A5A1B200C70F27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E6CDD6187011A255643198B /* Copy Firebase config */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Yellow Bot/GoogleService-Info.plist",
+			);
+			name = "Copy Firebase config";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Bundles your Firebase config when it is present. Without it the app still runs; only push notifications are off.\nPLIST=\"${SRCROOT}/Yellow Bot/GoogleService-Info.plist\"\nif [ -f \"$PLIST\" ]; then\n  cp \"$PLIST\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleService-Info.plist\"\nelse\n  echo \"warning: GoogleService-Info.plist not found, building without Firebase (push notifications off). See README.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		918C609526A5A1B200C70F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918C60B926A6D88400C70F27 /* Other.swift in Sources */,
+				918C60A126A5A1B200C70F27 /* QuickStartViewController.swift in Sources */,
+				918C609D26A5A1B200C70F27 /* AppDelegate.swift in Sources */,
+				918C60B326A6C29B00C70F27 /* Defaults.swift in Sources */,
+				918C60F726A7FD0C00C70F27 /* InfoViewController.swift in Sources */,
+				91EB0E8A26AE8B030034C356 /* ProfileListTableViewController.swift in Sources */,
+				918C60BB26A7072800C70F27 /* URLViewController.swift in Sources */,
+				918C60B526A6C59A00C70F27 /* BotModel.swift in Sources */,
+				918C60B726A6D66E00C70F27 /* PayloadViewController.swift in Sources */,
+				918C60B126A6C08B00C70F27 /* ProfileViewController.swift in Sources */,
+				918C609F26A5A1B200C70F27 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		918C60A226A5A1B200C70F27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				918C60A326A5A1B200C70F27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		918C60A726A5A1B500C70F27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				918C60A826A5A1B500C70F27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		918C60AB26A5A1B500C70F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MS237D8H2K;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		918C60AC26A5A1B500C70F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MS237D8H2K;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		918C60AE26A5A1B500C70F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Yellow Bot/Yellow Bot.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 30;
+				INFOPLIST_FILE = "Yellow Bot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.yellow.demoapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		918C60AF26A5A1B500C70F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Yellow Bot/Yellow Bot.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 30;
+				INFOPLIST_FILE = "Yellow Bot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.yellow.demoapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		918C609426A5A1B200C70F27 /* Build configuration list for PBXProject "Yellow Bot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918C60AB26A5A1B500C70F27 /* Debug */,
+				918C60AC26A5A1B500C70F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		918C60AD26A5A1B500C70F27 /* Build configuration list for PBXNativeTarget "Yellow Bot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918C60AE26A5A1B500C70F27 /* Debug */,
+				918C60AF26A5A1B500C70F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F9998F728F52AE6000A6542 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		7FC7E47228E3F5A3001194F0 /* XCRemoteSwiftPackageReference "YMChatbot-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yellowmessenger/YMChatbot-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F9998F828F52AE6000A6542 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F9998F728F52AE6000A6542 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		7FC7E47328E3F5A3001194F0 /* YMChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FC7E47228E3F5A3001194F0 /* XCRemoteSwiftPackageReference "YMChatbot-iOS" */;
+			productName = YMChat;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 918C609126A5A1B200C70F27 /* Project object */;
+}
